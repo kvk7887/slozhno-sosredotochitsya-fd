@@ -5,6 +5,13 @@
 */
 
 :root.theme-dark {
+  --main-color: #000028;
+  --accent-color: #FF0070;
+  --accent-letters-color: #DB00FF;
+  --text-color: #F1B2CE;
+  --bg-image: url(../images/cover-image-dark.png);
+  --accent-color-button: #ff006f66;
+  --title-accent-color: #FF0070; 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
