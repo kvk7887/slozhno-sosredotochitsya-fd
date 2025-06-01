@@ -1,4 +1,4 @@
-:root.theme-light {  
+:root.theme-light {
   --accent-color: #ff8dcb;
   --accent-letters-color: #ffc2e6;
   --text-color: #353430;
@@ -39,8 +39,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --main-color: #000028;
+  :root {    
     --accent-color: #ff8dcb;
     --accent-letters-color: #ffc2e6;
     --text-color: #353430;
@@ -50,7 +49,7 @@
 
   }
 
-  .record{
+  .record {
     display: none;
   }
 

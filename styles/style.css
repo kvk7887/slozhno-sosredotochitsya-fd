@@ -105,7 +105,7 @@
   color: var(--accent-letters-color);
 }
 
-.header__title {  
+.header__title {
   margin-block-end: 42px;
   margin-block-start: 46px;
 }
@@ -120,7 +120,7 @@
   white-space: pre-line;
 }
 
-.decorated-zone::before, .decorated-zone::after{
+.decorated-zone::before, .decorated-zone::after {
   content: "";
   display: inline;
   position: absolute;
@@ -128,7 +128,7 @@
   height: 25px;
   top: 0;
 }
-.decorated-zone::before {  
+.decorated-zone::before {
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
   margin-block-end: 9px;
@@ -137,14 +137,13 @@
   bottom: 0;
 }
 
-.decorated-zone::after {  
+.decorated-zone::after {
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
   margin-block-start: 11px;
   margin-inline-end: 10px;
   justify-self: end;
-  align-self: start;
-  
+  align-self: start;  
 }
 
 .title {
@@ -178,8 +177,8 @@
 
 .subtitle {
   background-color: var(--accent-color);
-  color: var(--main-color);  
-  font-weight: 400;  
+  color: var(--main-color);
+  font-weight: 400;
 }
 
 .title-decor {
@@ -240,7 +239,7 @@
 }
 
 @media (width >= 768px) {
-  .page {    
+  .page {
     gap: 72px;
   }
 
@@ -258,7 +257,7 @@
   }
 
   .header__title {
-    justify-self: start;    
+    justify-self: start;
     margin-block-start: 165px;
     margin-block-end: 148px;
   }
@@ -307,7 +306,7 @@
     grid-row-start: span 2;
   }
 
-  .card__list__img {    
+  .card__list__img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     gap: 20px;
@@ -330,7 +329,7 @@
     grid-column: 2 / 4;
   }
 
-  .footer__title {    
+  .footer__title {
     margin-inline-end: 0vw;
     margin-block-end: 1vw;
   }
@@ -355,7 +354,7 @@
   }
 }
 
-@media (width >= 1024px) { 
+@media (width >= 1024px) {
   .page {
     gap: 74px;
   }
@@ -372,7 +371,7 @@
     gap: 10px;
   }
   
-  .header__title {    
+  .header__title {
     margin-block-start: 116px;
     margin-block-end: 101px;
   }
@@ -394,7 +393,7 @@
     column-gap: 10px;
   }
 
-  .footer__title {    
+  .footer__title {
     margin-block-end: 0.6vw;
     margin-inline-end: 0vw;
   }
