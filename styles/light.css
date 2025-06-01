@@ -1,5 +1,4 @@
-:root.theme-light {
-  --main-color: #000028;
+:root.theme-light {  
   --accent-color: #ff8dcb;
   --accent-letters-color: #ffc2e6;
   --text-color: #353430;
@@ -18,7 +17,7 @@
 }
 
 .theme-light .page .header__theme-menu-button_active {
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .theme-light .page .header__theme-menu-button:focus-visible {
@@ -48,5 +47,32 @@
     --bg-image: url(../images/cover-image-light.png);
     --accent-color-button: #32312d66;
     --title-accent-color: #353430;
+
+  }
+
+  .record{
+    display: none;
+  }
+
+  .header__theme-menu-button {
+    color: var(--title-accent-color);
+  }
+
+  .header__theme-menu-button_active {
+    outline: 1px solid var(--title-accent-color);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--title-accent-color);
+  }
+
+  .decorated-zone::before {
+    border-bottom: 1px solid var(--title-accent-color);
+    border-left: 1px solid var(--title-accent-color);
+  }
+  
+  .decorated-zone::after {
+    border-top: 1px solid var(--title-accent-color);
+    border-right: 1px solid var(--title-accent-color);
   }
 }

@@ -2,13 +2,12 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root 
-{
+:root {
   --main-color: #000028;
   --accent-color: #FF0070;
   --accent-letters-color: #DB00FF;
   --text-color: #F1B2CE;
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color-button: #ff006f66;
-  --title-accent-color: #FF0070;  
+  --title-accent-color: #FF0070;
 }
