@@ -17,7 +17,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {    
+  :root {
     --accent-color: #ff8dcb;
     --accent-letters-color: #ffc2e6;
     --text-color: #353430;
