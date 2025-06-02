@@ -36,6 +36,7 @@
   line-height: 25px;
   color: var(--accent-color);
   top: 0;
+  display: none;
 }
 
 .record::after {
@@ -175,8 +176,6 @@
 }
 
 .subtitle {
-  background-color: var(--accent-color);
-  color: var(--main-color);
   font-weight: 400;
 }
 
